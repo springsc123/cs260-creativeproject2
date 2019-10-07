@@ -1,0 +1,136 @@
+/* Basic HTML styles */
+
+body {
+    background-color: white !important;
+}
+
+h1 {
+    color: #696969;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Nav Bar Styles */
+.navbar-custom {
+    background-color: #0080ff !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+/* div spacing styles */
+
+.centered-large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+}
+
+.thin-border {
+    border: 2px solid #0080ff;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/* text styles */
+.medium-font {
+    font-size: 60px!important;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0080ff!important;
+  color: white !important;
+  text-align: center !important;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+
+/* Container holding the image and the text */
+.img-text-container {
+  position: relative;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 12%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.top-centered {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-centered {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 12%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}

@@ -140,3 +140,30 @@ p {
     border-style: none;
     max-width: 300px !important;
 }
+
+.red-container {
+    align-content: center !important;
+    padding: 5px;
+    background-color: red !important;
+    border-radius: 25px;
+    border-style: none;
+    max-width: 300px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blue-container {
+    align-content: center !important;
+    padding: 5px;
+    background-color: #e8f4f8 !important;
+    border-radius: 25px;
+    border-style: none;
+    max-width: 300px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button, input, select, textarea {
+  font-family : sans-serif;
+  font-size   : 100%;
+}

@@ -7,14 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles.css">
-    <script text="type/javascript" src="script.js"></script>
+  <script text="type/javascript" src="script.js"></script>
 
 </head>
 
 <body onLoad="init()">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
     <a class="navbar-brand" href="index.html">
-      <i class="fa fa-money"></i>
       <i class="fa fa-money"></i>
       <i class="fa fa-money"></i>
       &nbsp;&nbsp;&nbsp;Currency Exchange
@@ -25,57 +24,56 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     </div>
   </nav>
-  
+
   <br>
   <br>
-  
+
   <h1>Welcome to Currency Exchange</h1>
-  
+
   <br>
   <br>
-  
-  
-  <div class="row">
-  
-    <div class="blue-container">
-      <div class="centered" >
-        <form>
-          <p>Enter amount of money to exchange</p>
-          <br>
-          <input id="moneyInput" type="float" placeholder="0.00" style="opacity: 0.5;"></input>
-          <select id="currencyTypeFrom"></select>
+
+  <div class="blue-container">
+    <div class="centered">
+      <form>
+        <p>Enter amount of money to exchange</p>
+        <br>
+        <input id="moneyInput" type="float" placeholder="0.00" style="opacity: 0.5;"></input>
+        <select id="currencyTypeFrom"></select>
       </form>
-      </div>
-    </div>
-  
-    <div class="blue-container">
-      <div class="centered" >
-        <form>
-          <p>Select the currency you'd like to exchange it into.</p>
-          <br>
-          <select id="currencyTypeTo"></select>
-        <button id="moneySubmit" type="button" onclick="submitCurrency()">Go!</i></button>
-      </form>
-      </div>
     </div>
   </div>
-  
+
   <br>
   <br>
-  
+
+  <div class="blue-container">
+    <div class="centered">
+      <form>
+        <p>Select the currency you'd like to exchange it into.</p>
+        <br>
+        <select id="currencyTypeTo"></select>
+        <button id="moneySubmit" type="button" onclick="submitCurrency()">Go!</i></button>
+      </form>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
   <h2>Result:</h2>
   <div class="container">
-    <div class="centered" >
+    <div class="centered">
       <h2 id="currencyResult"></h2>
     </div>
   </div>
-  
+
   <div class="footer">
     <div color="white">Created by Spring & Xander &nbsp; &nbsp;&nbsp;
+      <i class="fa fa-github" style="color:yellow; height: 20px;"></i>
       <a href="https://github.com/springsc123/cs260-creativeproject2" class="yellow">
-      Link to Github</a></div>
+      Check out our Github</a></div>
   </div>
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
 </body>

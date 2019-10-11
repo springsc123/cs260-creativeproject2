@@ -39,6 +39,6 @@ function submitCurrency() {
                 console.log("RESULT: " + result)
                 console.log("value * result: " + (value * result))
                 
-                document.getElementById("currencyResult").innerHTML = ((value * result) + .005).toFixed(2);
+                document.getElementById("currencyResult").innerHTML = (value * result).toFixed(2);
             });
 }

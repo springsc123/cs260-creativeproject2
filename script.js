@@ -17,8 +17,8 @@ function init() {
 
 var el = document.getElementById('moneySubmit');
 if (el) {
+    
     document.getElementById("moneySubmit").addEventListener("submit", function(event) {
-        event.preventDefault();
         const currency = document.getElementById("currencyType").value;
         const value = document.getElementById("moneyInput").value;
         console.log("value is " + currency);

@@ -130,3 +130,13 @@ p {
   transform: translate(-50%, -50%);
 }
 
+
+
+/* Containers */
+.container {
+    padding: 5px;
+    background-color: #d2d2d2;
+    border-radius: 25px;
+    border-style: none;
+    max-width: 300px !important;
+}

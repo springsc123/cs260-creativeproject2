@@ -20,22 +20,32 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </div>
     </div>
   </nav>
   
   <h1>Welcome to CreativeProject2</h1>
+  
   <br>
   <br>
-  <form>
-    <input id="moneyInput" type="float" placeholder="0.00" style="opacity: 0.5;"></input>
-    <select id="currencyType">
-      
-    </select>
-    <button id="moneySubmit" type="submit"><i class="fa fa-search"></i></button>
-  </form>
+  
+  <div class="centered">
+    <form>
+      <p>Enter amount of money to exchange (USD)</p>
+      <p>Then select the currency you'd like to exchange it into.</p>
+      <br>
+      <input id="moneyInput" type="float" placeholder="0.00" style="opacity: 0.5;"></input>
+      <select id="currencyType">
+        
+      </select>
+      <button id="moneySubmit" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  
+  <br>
+  <br>
+  
+  <h2>Result:</h2>
+  <div class="centered" id="currencyResult"></div>
   
   <div class="footer">
     <div color="white">Created by Spring & Xander &nbsp; &nbsp;&nbsp;

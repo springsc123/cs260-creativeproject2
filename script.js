@@ -34,8 +34,8 @@ function submitCurrency() {
                 var text = "";
                 var result = json.rates["USD"]
                 console.log("RESULT: " + result)
-                console.log("result * value: " + (result*value))
+                console.log("value / result: " + (value / result))
                 
-                document.getElementById("currencyResult").innerHTML = (result * value);
+                document.getElementById("currencyResult").innerHTML = (value / result);
             });
 }

@@ -15,10 +15,7 @@ function init() {
         });
 }
 
-var el = document.getElementById('moneySubmit');
-if (el) {
-    
-    document.getElementById("moneySubmit").addEventListener("submit", function(event) {
+function submitCurrency() {
         const currency = document.getElementById("currencyType").value;
         const value = document.getElementById("moneyInput").value;
         console.log("value is " + currency);
@@ -34,6 +31,11 @@ if (el) {
                 return response.json();
             }).then(function(json) {
                 console.log(json);
+                var text = "";
+                var result = json.rates["USD"]
+                console.log("RESULT: " + result)
+                console.log("result * value: " + (result*value))
+                
+                document.getElementById("currencyResult").innerHTML = (result * value);
             });
-    });
 }
